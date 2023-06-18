@@ -1,7 +1,7 @@
 import PyPDF2  # PyPDF2 pro extrakci textu z PDF souboru
 import random
 
-pdf_path = r'C:\Users\Home\Documents\GitHub\MSW\Tolstoy_Voina_i_mir.pdf'
+pdf_path = r'C:\Users\Home\Documents\GitHub\MSW_V2\Tolstoy_Voina_i_mir.pdf'
 with open(pdf_path, 'rb') as file:
     pdf_reader = PyPDF2.PdfReader(file)  # Vytvoření objektu pro práci s PDF
 
